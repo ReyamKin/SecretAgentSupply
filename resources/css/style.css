@@ -19,7 +19,7 @@ div {
   height: auto;
   width: 100%;
   background-color: black;
-  padding: 0.33rem 0 0.33rem 0;
+  padding: 0.66rem 0 0.66rem 0;
   justify-content: center;
 }
 
@@ -89,6 +89,81 @@ div {
   justify-content: space-between;
   padding: 0.75rem 0 0.75rem 0;
 }
+
+.body {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  width: 960px;
+  padding-top: 3rem;
+  justify-content: space-between;
+}
+
+.box {
+  display: flex;
+  height: 15rem;
+  width: 15rem;
+  flex-direction: column;
+  margin: auto;
+  border: 4px solid black;
+}
+
+.box img {
+  height: 9rem;
+  background-color: white;
+  padding: 2rem;
+  margin: auto;
+}
+
+.textbox {
+  display: flex;
+  background-color: black;
+  width: 15rem;
+  justify-content: center;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.textbox2 {
+    display: flex;
+    background-color: black;
+    width: 18rem;
+    padding: 1rem 0 1rem 2rem;
+    justify-content: flex-start;
+}
+
+.databox {
+  width: 18rem;
+  color: black;
+}
+
+#data {
+  padding: 0 0 4rem 0;
+  width: 20rem;
+}
+
+#datagallery {
+  padding: 0;
+}
+
+.footer {
+  display: flex;
+  height: 5rem;
+  width: 100%;
+  background-color: black;
+  padding: 0.66rem 0 0.66rem 0;
+  justify-content: center;
+}
+
+.footer,
+.container {
+    align-items: center;
+}
+
 
 /*
 .page {
